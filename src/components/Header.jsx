@@ -4,6 +4,7 @@ import profile_img2 from "../assets/profile-img2.png";
 
 import right_arrow_white from "../assets/right-arrow-white.png";
 import download_icon from "../assets/download-icon.png";
+import resume from "/BK_CV_ATS.pdf";
 
 // const Header = () => {
 //   return (
@@ -73,7 +74,7 @@ const Header = () => {
         </a>
 
         <a
-          href="/BK_CV_ATS.pdf"
+          href={resume}
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >
