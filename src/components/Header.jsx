@@ -1,10 +1,18 @@
 import React from "react";
 import profile_img from "../assets/profile-img.png";
 import profile_img2 from "../assets/profile-img2.png";
+import hand from "../assets/hand-icon.png";
 
 import right_arrow_white from "../assets/right-arrow-white.png";
 import download_icon from "../assets/download-icon.png";
-import resume from "/BK_CV_ATS.pdf";
+import resume from "/Bachir_Ahmed_Khan_MERN_CV.pdf";
+
+{
+  /* <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
+         Hi! I'm Basir Khan{" "}
+         <img src="./assets/hand-icon.png" alt="" className="w-6" />
+      </h3> */
+}
 
 // const Header = () => {
 //   return (
@@ -50,19 +58,16 @@ const Header = () => {
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto min-h-screen pt-20 flex flex-col items-center justify-center gap-4">
       <img src={profile_img2} alt="" className="rounded-full w-32 mt-8" />
-      <h3 className="flex items-end gap-2 text-2xl md:text-3xl mb-3 font-Ovo">
-        {" "}
-        {/* Increased text size */}
-        Hi! I'm Basir Khan{" "}
-        <img src="./assets/hand-icon.png" alt="" className="w-6" />
+      <h3 className="flex items-end gap-2 text-2xl md:text-3xl mb-1 font-Ovo">
+        Hi! I'm Basir Khan
       </h3>
-      <h1 className="text-3xl sm:text-6xl lg:text-[55px] font-Ovo">
-        Software Developer from Bangalore focused on MERN Full-Stack.
+      <h1 className="text-3xl sm:text-6xl lg:text-[50px] font-Ovo">
+        Software Engineer | MERN Full-Stack Developer
       </h1>
       <p className="max-w-2xl mx-auto font-Ovo">
-        Dynamic Software Developer in Bangalore, specializing in MERN Full-Stack
-        technologies to create innovative solutions that seamlessly integrate
-        front-end elegance with robust back-end functionality.
+        Dynamic Software Developer specializing in MERN Full-Stack technologies,
+        creating innovative solutions that blend front-end elegance with robust
+        back-end functionality.
       </p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

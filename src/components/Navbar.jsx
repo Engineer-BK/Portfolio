@@ -114,7 +114,7 @@ const Navbar = () => {
         <ul
           ref={navLinkRef}
           className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo
-        dark:border dark:border-white/50 dark:bg-transparent "
+        dark:border dark:border-white/50 dark:bg-transparent"
         >
           <li>
             <a href="#top">Home</a>

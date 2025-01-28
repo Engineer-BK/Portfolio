@@ -13,12 +13,14 @@ import project_icon_dark from "../assets/project-icon-dark.png";
 import vscode from "../assets/vscode.png";
 // import firebase from "../assets/firebase.png";
 import node from "../assets/node.png";
-import express from "../assets/express.png";
-import react from "../assets/react.png";
+import postman from "../assets/postman-icon.png";
+// import react from "../assets/react.png";
 
 import figma from "../assets/figma.png";
+import docker from "../assets/docker-logo.png";
 import git from "../assets/git.png";
 import mongodb from "../assets/mongodb.png";
+import kubernetes from "../assets/kubernetes-logo.png";
 
 const About = () => {
   return (
@@ -50,11 +52,11 @@ const About = () => {
         <div className="flex-1">
           <p className="mb-10 max-w-2xl font-Ovo">
             I am a Software Developer with a strong focus on MERN Full-Stack
-            Development. Proficient in HTML, CSS, JavaScript, and Tailwind, I
-            create responsive and user-friendly web interfaces. My expertise
-            extends to the full MERN stack, including MongoDB, Express, React,
-            and Node.js. Additionally, I possess skills in SQL (Oracle) and have
-            hands-on experience with AI/ML Integration.
+            Development. Proficient in HTML, CSS, JavaScript, TypeScript and
+            Tailwind, I create responsive and user-friendly web interfaces. My
+            expertise extends to the full MERN stack, including MongoDB,
+            Express, React, and Node.js. Additionally, I possess skills in SQL
+            (Oracle) and have hands-on experience with AI/ML Integration.
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
@@ -74,8 +76,8 @@ const About = () => {
                 Languages
               </h3>
               <p className="text-gray-600 text-sm dark:text-white/80">
-                HTML, CSS, JavaScript,Tailwind CSS, React Js, Node Js,
-                Express.js, MongoDB, SQL(Oracle) etc.{" "}
+                HTML, CSS, JavaScript, TypeScript, Tailwind CSS, React Js, Node
+                Js, Express.js, MongoDB, SQL(Oracle) etc.{" "}
               </p>
             </li>
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50">
@@ -90,7 +92,10 @@ const About = () => {
                 Education
               </h3>
               <p className="text-gray-600 text-sm dark:text-white/80">
-                B.Tech in Computer Science and Engineering (2023){" "}
+                Science (PCMB) - Ajmal College (2018){" "}
+              </p>
+              <p className="text-gray-600 text-sm dark:text-white/80">
+                B.Tech in Computer Science and Engineering - NU (2023){" "}
               </p>
             </li>
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50">
@@ -121,13 +126,13 @@ const About = () => {
               <img src={mongodb} alt="" className="w-5 sm:w-7" />
             </li>
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-              <img src={express} alt="" className="w-5 sm:w-7" />
+              <img src={postman} alt="" className="w-5 sm:w-7" />
             </li>
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-              <img src={react} alt="" className="w-5 sm:w-7" />
+              <img src={docker} alt="" className="w-5 sm:w-7" />
             </li>
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-              <img src={node} alt="" className="w-5 sm:w-7" />
+              <img src={kubernetes} alt="" className="w-5 sm:w-7" />
             </li>
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
               <img src={git} alt="" className="w-5 sm:w-7" />

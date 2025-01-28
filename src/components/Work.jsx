@@ -117,7 +117,7 @@ const Work = () => {
 
         {/* Link for Ecommerce */}
         <a
-          href="https://engineer-bk.github.io/Ecommerce/"
+          href="https://ecommerce-frontend-8v2v.onrender.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -136,7 +136,7 @@ const Work = () => {
 
         {/* Link for Portfolio */}
         <a
-          href="https://portfolio-link.com"
+          href="https://engineer-bk.github.io/react-portfolio/"
           target="_blank"
           rel="noopener noreferrer"
         >
