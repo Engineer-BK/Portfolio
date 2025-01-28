@@ -56,7 +56,7 @@ import resume from "/Bachir_Ahmed_Khan_MERN_CV.pdf";
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto min-h-screen pt-20 flex flex-col items-center justify-center gap-4">
+    <div className="w-10/12 max-w-3xl text-center mx-auto min-h-screen pt-10 flex flex-col items-center justify-center gap-4">
       <img src={profile_img2} alt="" className="rounded-full w-32 mt-8" />
       <h3 className="flex items-end gap-2 text-2xl md:text-3xl mb-1 font-Ovo">
         Hi! I'm Basir Khan
